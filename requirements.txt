@@ -1,5 +1,7 @@
 torch==1.13.1
 transformers
+xformers
+triton
 scipy
 ftfy
 git+https://github.com/huggingface/diffusers

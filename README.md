@@ -2,6 +2,9 @@
 
 Modified img2img, tailored for transforming 3D renders with Stable Diffusion.
 
+Keep it simple - written in a way thats easy to modify and hack for your own
+purposes.
+
 ### How to use
 
 - Clone repo, put source animation frames (png) in `./in`

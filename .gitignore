@@ -2,3 +2,4 @@
 in/*.png
 out/*
 .DS_Store
+.vscode
