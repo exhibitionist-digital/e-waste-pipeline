@@ -15,7 +15,7 @@ Modified img2img, tailored for transforming 3D renders with Stable Diffusion.
 Convert frames to video
 
 ```bash
-ffmpeg -framerate 24 -pattern_type glob -i '*.png' c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 24 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p out.mp4
 ```
 
 Convert video to frames

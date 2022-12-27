@@ -1,4 +1,4 @@
 .env
 in/*.png
-out/*.png
+out/*
 .DS_Store
