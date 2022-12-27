@@ -1,0 +1,7 @@
+torch==1.13.1
+transformers
+scipy
+ftfy
+git+https://github.com/huggingface/diffusers
+load_dotenv
+glob
