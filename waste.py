@@ -34,7 +34,6 @@ def dummy(images, **kwargs):
 
 
 # setup torch pipeline
-device = "cuda"
 torch.cuda.empty_cache()
 img_pipe = StableDiffusionImg2ImgPipeline.from_pretrained(
     "stabilityai/stable-diffusion-2", use_auth_token=HUGGING_FACE
@@ -42,7 +41,7 @@ img_pipe = StableDiffusionImg2ImgPipeline.from_pretrained(
 img_pipe.safety_checker = dummy
 
 # vram slicing on (good for HD)
-img_pipe.to(device).enable_attention_slicing()
+img_pipe.to("cuda").enable_attention_slicing()
 
 
 def infer(source_image):
