@@ -42,7 +42,7 @@ purposes.
 - Edit settings in `./waste.py`
 - Run script with `python3 waste.py` and images will be output to `./out`
 
-### Handy FFMPEG Scripts
+### Handy FFMPEG scripts
 
 Convert frames to video
 
