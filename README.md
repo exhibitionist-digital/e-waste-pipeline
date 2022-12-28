@@ -83,11 +83,11 @@ f"{prompt_gen(bugType, 6, 41)} bug {prompt_gen(location, 15, 41)}"
 you are silly.
 
 ```python
-strengths = [0.8, 0.7, 0.6, 0.5]
-steps = [40, 45, 50, 12]
+strength_list = [0.8, 0.7, 0.6, 0.5]
+step_list = [40, 45, 50, 12]
 
-strength = prompt_gen(strengths, 6, 41)
-steps = prompt_gen(steps, 6, 41)
+strength = prompt_gen(strength_list, 6, 41)
+steps = prompt_gen(step_list, 6, 41)
 ```
 
 ### Handy FFMPEG scripts
