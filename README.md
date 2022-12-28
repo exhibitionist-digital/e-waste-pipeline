@@ -2,15 +2,20 @@
 
 ![e-waste](./example.gif)
 
-Scripts for using img2img/depth2image, tailored for transforming 3D renders with Stable Diffusion.
+Scripts for using img2img/depth2image, tailored for transforming 3D renders with
+Stable Diffusion.
 
-__Keep it simple__ - written in a way thats easy to modify and hack for your own
+**Keep it simple** - written in a way thats easy to modify and hack for your own
 purposes.
 
 <table>
     <tr>
         <td>✅</td>
         <td>Positive / negative prompts</td>
+    </tr>
+    <tr>
+        <td>✅</td>
+        <td>Embeddings</td>
     </tr>
     <tr>
         <td>✅</td>
@@ -40,9 +45,8 @@ purposes.
 
 ### How to use
 
-- Clone repo, put source animation frames (png) in `./in`
-- Rename `.env.example` to `.env` and add Hugging Face token
 - Install reqs `pip install -r requirements.txt`
+- Clone repo, put source animation frames (png) in `./in`
 - Edit settings in `./waste.py`
 - Run script with `python3 waste.py` and images will be output to `./out`
 

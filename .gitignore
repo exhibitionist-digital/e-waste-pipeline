@@ -1,5 +1,7 @@
 .env
 in/*.png
+embeddings/*.pt
+embeddings/*.bin
 out/*
 .DS_Store
 .vscode
