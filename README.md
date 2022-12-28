@@ -64,9 +64,8 @@ filename if there is no token found in the embedding.
 
 ### Dynamic prompt generator
 
-Use `prompt_gen` -- it is a simple, but powerful function that allows you to
-pass in lists of words/prompts and cycle through them at varying speeds and
-indices.
+Use `prompt_gen` -- a simple, but powerful, function that allows you to pass in
+lists of words/prompts and cycle through them at varying speeds and indices.
 
 ```python
 bugType = ["shiny", "squashed", "giant", "monster", "cute"]
