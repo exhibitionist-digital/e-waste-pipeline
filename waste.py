@@ -17,7 +17,6 @@ steps = 48
 seed = 12355
 strength = 0.666
 
-
 # make output dir
 try:
     os.mkdir("./out/")
