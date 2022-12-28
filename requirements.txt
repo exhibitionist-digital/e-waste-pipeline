@@ -1,10 +1,7 @@
-load_dotenv
-glob
 torch
 git+https://github.com/huggingface/diffusers
 git+https://github.com/huggingface/transformers
 xformers
-triton
 scipy
 ftfy
 accelerate
