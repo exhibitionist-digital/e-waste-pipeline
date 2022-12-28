@@ -18,6 +18,10 @@ purposes.
     </tr>
     <tr>
         <td>✅</td>
+        <td>Generate sequences of images</td>
+    </tr>
+    <tr>
+        <td>✅</td>
         <td>Optimised for high(er) res </td>
     </tr>
     <tr>
