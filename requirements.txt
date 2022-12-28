@@ -1,9 +1,10 @@
-torch==1.13.1
+torch
 transformers
 xformers
 triton
 scipy
 ftfy
 git+https://github.com/huggingface/diffusers
+git+https://github.com/huggingface/transformers
 load_dotenv
 glob

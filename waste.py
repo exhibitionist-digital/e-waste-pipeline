@@ -12,7 +12,7 @@ height = 1000
 
 # edit settings here...
 prompt = "beautiful horse"
-# n_prompt = "trees"
+negative_prompt = "trees"
 guide = 15
 steps = 48
 seed = 12355
@@ -36,7 +36,7 @@ def dummy(images, **kwargs):
 # setup torch pipeline
 torch.cuda.empty_cache()
 img_pipe = StableDiffusionImg2ImgPipeline.from_pretrained(
-    "stabilityai/stable-diffusion-2", use_auth_token=HUGGING_FACE
+    "stabilityai/stable-diffusion-2-1", use_auth_token=HUGGING_FACE
 )
 img_pipe.safety_checker = dummy
 
@@ -52,6 +52,7 @@ def infer(source_image):
         strength=strength,
         guidance_scale=guide,
         num_inference_steps=steps,
+        negative_prompt=negative_prompt,
     )
     return images[0][0]
 
