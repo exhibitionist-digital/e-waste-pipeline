@@ -45,8 +45,8 @@ purposes.
 
 ### How to use
 
-- Install reqs `pip install -r requirements.txt`
 - Clone repo, put source animation frames (png) in `./in`
+- Install reqs `pip install -r requirements.txt`
 - Edit settings in `./waste.py`
 - Run script with `python3 waste.py` and images will be output to `./out`
 
