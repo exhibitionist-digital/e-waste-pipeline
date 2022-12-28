@@ -6,8 +6,8 @@ from torch import autocast
 from diffusers import StableDiffusionImg2ImgPipeline
 
 # resolution settings
-width = 1500
-height = 1000
+width = 1472
+height = 960
 
 # edit settings here...
 prompt = "beautiful horse"
