@@ -7,6 +7,33 @@ Scripts for using img2img/depth2image, tailored for transforming 3D renders with
 __Keep it simple__ - written in a way thats easy to modify and hack for your own
 purposes.
 
+<table>
+    <tr>
+        <td>✅</td>
+        <td>Positive / negative prompts</td>
+    </tr>
+    <tr>
+        <td>✅</td>
+        <td>Compatible with SD 1.4/1.5/2.0/2.1</td>
+    </tr>
+    <tr>
+        <td>✅</td>
+        <td>Optimised for high(er) res </td>
+    </tr>
+    <tr>
+        <td>✅</td>
+        <td>img2img or depth2img</td>
+    </tr>
+    <tr>
+        <td>❌</td>
+        <td>No safety check</td>
+    </tr>
+    <tr>
+        <td>❌</td>
+        <td>No ui / cli only</td>
+    </tr>
+</table>
+
 ### How to use
 
 - Clone repo, put source animation frames (png) in `./in`
