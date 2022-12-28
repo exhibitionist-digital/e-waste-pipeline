@@ -1,6 +1,6 @@
 # 🚮 E-WASTE PIPELINE
 
-<video src="example.mp4" />
+<video src="example.mp4"> <video/>
 
 Modified img2img, tailored for transforming 3D renders with Stable Diffusion.
 
