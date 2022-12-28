@@ -1,6 +1,6 @@
 # 🚮 E-WASTE PIPELINE
 
-<video src="example.mp4"> <video/>
+<video src="https://cloudflare-ipfs.com/ipfs/QmenkhEUHDm1q9pZrSUY4aXgXSHg726hKT3jfJ3HGxQMWh"></video>
 
 Modified img2img, tailored for transforming 3D renders with Stable Diffusion.
 
