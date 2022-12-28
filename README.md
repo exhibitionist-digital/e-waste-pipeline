@@ -68,14 +68,14 @@ Use `prompt_gen` -- a simple, but powerful, function that allows you to pass in
 lists of words/prompts and cycle through them at varying speeds and indices.
 
 ```python
-bugType = ["shiny", "squashed", "giant", "monster", "cute"]
+bug_type = ["shiny", "squashed", "giant", "monster", "cute"]
 location = ["in the sky", "floating on water", "crawling on flesh"]
 
-f"{prompt_gen(bugType, 6, 3)} bug {prompt_gen(location, 15, 3)}"
+f"{prompt_gen(bug_type, 6, 3)} bug {prompt_gen(location, 15, 3)}"
 # shiny bug in the sky
-f"{prompt_gen(bugType, 6, 22)} bug {prompt_gen(location, 15, 22)}"
+f"{prompt_gen(bug_type, 6, 22)} bug {prompt_gen(location, 15, 22)}"
 # monster bug floating on water
-f"{prompt_gen(bugType, 6, 41)} bug {prompt_gen(location, 15, 41)}"
+f"{prompt_gen(bug_type, 6, 41)} bug {prompt_gen(location, 15, 41)}"
 # squashed bug crawling on flesh
 ```
 
