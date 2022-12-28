@@ -95,6 +95,15 @@ def infer(source_image):
     return images[0][0]
 
 
+# dynamic prompt generator
+# cycle through word/prompt arrays at varying speed and indices
+def prompt_gen(array, speed, index):
+    built = []
+    for prompt in array:
+        built += [prompt] * speed
+    return built[index % len(built)]
+
+
 for frame in sorted(glob.glob("./in/*.png")):
     new_path = frame.replace("./in/", "./out/")
     image = Image.open(frame).convert("RGB")

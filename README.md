@@ -19,6 +19,10 @@ purposes.
     </tr>
     <tr>
         <td>✅</td>
+        <td>Dynamic prompt generator</td>
+    </tr>
+    <tr>
+        <td>✅</td>
         <td>Compatible with SD 1.4/1.5/2.0/2.1</td>
     </tr>
     <tr>
