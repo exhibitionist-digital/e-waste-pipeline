@@ -2,9 +2,9 @@
 
 ![e-waste](./example.gif)
 
-Modified img2img, tailored for transforming 3D renders with Stable Diffusion.
+Scripts for using img2img/depth2image, tailored for transforming 3D renders with Stable Diffusion.
 
-Keep it simple - written in a way thats easy to modify and hack for your own
+__Keep it simple__ - written in a way thats easy to modify and hack for your own
 purposes.
 
 ### How to use
@@ -20,7 +20,7 @@ purposes.
 Convert frames to video
 
 ```bash
-ffmpeg -framerate 24 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 8 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p out.mp4
 ```
 
 Convert video to frames
