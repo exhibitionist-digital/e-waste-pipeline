@@ -43,7 +43,7 @@ purposes.
     </tr>
     <tr>
         <td>❌</td>
-        <td>No ui / cli only</td>
+        <td>No ui / code only</td>
     </tr>
 </table>
 
