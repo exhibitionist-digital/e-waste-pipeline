@@ -85,6 +85,9 @@ you are silly.
 ```python
 strengths = [0.8, 0.7, 0.6, 0.5]
 steps = [40, 45, 50, 12]
+
+strength = prompt_gen(strengths, 6, 41)
+steps = prompt_gen(steps, 6, 41)
 ```
 
 ### Handy FFMPEG scripts
