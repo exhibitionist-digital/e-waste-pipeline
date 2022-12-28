@@ -1,10 +1,11 @@
+load_dotenv
+glob
 torch
-transformers
+git+https://github.com/huggingface/diffusers
+git+https://github.com/huggingface/transformers
 xformers
 triton
 scipy
 ftfy
-git+https://github.com/huggingface/diffusers
-git+https://github.com/huggingface/transformers
-load_dotenv
-glob
+accelerate
+safetensors
