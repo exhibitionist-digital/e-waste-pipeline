@@ -10,7 +10,7 @@ width = 1472
 height = 960
 
 # edit settings here...
-prompt = "beautiful horse"
+prompt = "beautiful horse, Kipaki-100"
 negative_prompt = "trees"
 guide = 15
 steps = 48
@@ -47,7 +47,7 @@ def load_learned_embed_in_clip(
     # separate token and the embeds
     trained_token = list(loaded_learned_embeds.keys())[0]
     embeds = loaded_learned_embeds[trained_token]
-
+    print(embeds)
     # cast to dtype of text_encoder
     dtype = text_encoder.get_input_embeddings().weight.dtype
 
@@ -72,14 +72,12 @@ def load_learned_embed_in_clip(
     return token
 
 
-for embedding in sorted(
-    glob.glob("./embeddings/*.pt") + glob.glob("./embeddings/*.bin")
-):
-    name = embedding.split("/")
-    name = name[len(name) - 1].split(".")[0]
-    load_learned_embed_in_clip(
-        embedding, img_pipe.text_encoder, img_pipe.tokenizer, name
-    )
+# for embedding in sorted(glob.glob("./embeddings/*.pt")):
+#     name = embedding.split("/")
+#     name = name[len(name) - 1].split(".")[0]
+#     load_learned_embed_in_clip(
+#         embedding, img_pipe.text_encoder, img_pipe.tokenizer, name
+#     )
 
 
 def infer(source_image):
