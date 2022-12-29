@@ -50,14 +50,6 @@ purposes.
 - Edit settings in `./waste.py`
 - Run script with `python3 waste.py` and images will be output to `./out`
 
-### Embeddings
-
-Add `.pt` or `.bin` files into `./embeddings`, they will be added to the
-pipeline on startup.
-
-The `token` for each embedding will be printed to the console. It falls back to
-filename if there is no token found in the embedding.
-
 ### Dynamic prompt generator
 
 Use `prompt_gen` -- a simple, but powerful, function that allows you to pass in
