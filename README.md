@@ -34,8 +34,8 @@ purposes.
         <td>Compatible with SD 1.4/1.5/2.0/2.1</td>
     </tr>
     <tr>
-        <td>❌</td>
-        <td>No safety check</td>
+        <td>✅</td>
+        <td>Load custom models</td>
     </tr>
     <tr>
         <td>❌</td>
